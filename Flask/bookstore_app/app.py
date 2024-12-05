@@ -8,7 +8,7 @@ from flask_session import Session
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///bookstore.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgres@localhost:5432/bookstore'
 app.config['SESSION_TYPE'] = 'filesystem'
 
 db = SQLAlchemy(app)
@@ -46,7 +46,10 @@ class LoginForm(FlaskForm):
 @app.route('/')
 def home():
     books = Book.query.all()
-    return render_template('index.html', books=books)
+    # Check if user is logged in by looking for 'user_id' in the session
+    is_logged_in = 'user_id' in session
+    return render_template('index.html', books=books, is_logged_in=is_logged_in)
+
 
 @app.route('/add', methods=['GET', 'POST'])
 def add_book():
