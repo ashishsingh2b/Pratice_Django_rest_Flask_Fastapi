@@ -1,0 +1,47 @@
+2024-12-17 10:08:35,538 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-12-17 10:10:20,095 - django.utils.autoreload - INFO - /media/ts/fc248944-f5bc-4874-8086-ae2a42a47c5b1/home/ts/Desktop/Ashish Singh/Pratice_Django_rest_Flask_Fastapi/Django/user_crud_email/accounts/views.py changed, reloading.
+2024-12-17 10:10:20,584 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-12-17 10:10:43,165 - django.utils.autoreload - INFO - /media/ts/fc248944-f5bc-4874-8086-ae2a42a47c5b1/home/ts/Desktop/Ashish Singh/Pratice_Django_rest_Flask_Fastapi/Django/user_crud_email/user_crud_email/settings.py changed, reloading.
+2024-12-17 10:13:46,264 - accounts - DEBUG - Function called: product_list() - User: admin
+2024-12-17 10:13:46,268 - accounts - INFO - Fetched 14 products for user: admin
+2024-12-17 10:13:46,323 - django.server - INFO - "GET /accounts/products/ HTTP/1.1" 200 1048
+2024-12-17 10:13:55,161 - accounts - DEBUG - Function called: product_create() - User: admin
+2024-12-17 10:13:55,162 - accounts - DEBUG - Displaying product creation form.
+2024-12-17 10:13:55,175 - django.server - INFO - "GET /accounts/products/create/ HTTP/1.1" 200 1036
+2024-12-17 10:14:13,346 - django.server - INFO - "GET /logout/ HTTP/1.1" 302 0
+2024-12-17 10:14:13,359 - django.server - INFO - "GET /login/ HTTP/1.1" 200 1015
+2024-12-17 10:14:18,164 - django.server - INFO - "POST /login/ HTTP/1.1" 302 0
+2024-12-17 10:14:18,178 - accounts - DEBUG - Function called: product_list() - User: admin
+2024-12-17 10:14:18,179 - accounts - INFO - Fetched 14 products for user: admin
+2024-12-17 10:14:18,184 - django.server - INFO - "GET /accounts/products/ HTTP/1.1" 200 1048
+2024-12-17 10:14:24,985 - accounts - DEBUG - Function called: product_create() - User: admin
+2024-12-17 10:14:24,986 - accounts - DEBUG - Displaying product creation form.
+2024-12-17 10:14:24,993 - django.server - INFO - "GET /accounts/products/create/ HTTP/1.1" 200 1036
+2024-12-17 10:14:54,172 - accounts - DEBUG - Function called: product_create() - User: admin
+2024-12-17 10:14:54,173 - accounts - DEBUG - POST request received for product creation.
+2024-12-17 10:15:01,105 - accounts - INFO - Product created successfully for user: admin
+2024-12-17 10:15:01,107 - django.server - INFO - "POST /accounts/products/create/ HTTP/1.1" 302 0
+2024-12-17 10:15:01,133 - accounts - DEBUG - Function called: product_list() - User: admin
+2024-12-17 10:15:01,136 - accounts - INFO - Fetched 15 products for user: admin
+2024-12-17 10:15:01,142 - django.server - INFO - "GET /accounts/products/ HTTP/1.1" 200 1093
+2024-12-17 10:17:08,729 - accounts - DEBUG - Function called: product_create() - User: admin
+2024-12-17 10:17:08,732 - accounts - DEBUG - Displaying product creation form.
+2024-12-17 10:17:08,760 - django.server - INFO - "GET /accounts/products/create/ HTTP/1.1" 200 1036
+2024-12-17 10:17:13,801 - django.server - INFO - "GET /logout/ HTTP/1.1" 302 0
+2024-12-17 10:17:13,819 - django.server - INFO - "GET /login/ HTTP/1.1" 200 1015
+2024-12-17 10:17:16,987 - django.server - INFO - "POST /login/ HTTP/1.1" 302 0
+2024-12-17 10:17:16,996 - accounts - DEBUG - Function called: product_list() - User: admin
+2024-12-17 10:17:16,997 - accounts - INFO - Fetched 15 products for user: admin
+2024-12-17 10:17:17,004 - django.server - INFO - "GET /accounts/products/ HTTP/1.1" 200 1093
+2024-12-17 10:27:01,368 - accounts - DEBUG - Function called: product_list() - User: admin
+2024-12-17 10:27:01,371 - accounts - INFO - Fetched 15 products for user: admin
+2024-12-17 10:27:01,391 - django.server - INFO - "GET /accounts/products/ HTTP/1.1" 200 1093
+2024-12-17 10:27:01,524 - accounts - DEBUG - Function called: product_list() - User: admin
+2024-12-17 10:27:01,526 - accounts - INFO - Fetched 15 products for user: admin
+2024-12-17 10:27:01,530 - django.server - INFO - "GET /accounts/products/ HTTP/1.1" 200 1093
+2024-12-17 10:27:01,667 - accounts - DEBUG - Function called: product_list() - User: admin
+2024-12-17 10:27:01,668 - accounts - INFO - Fetched 15 products for user: admin
+2024-12-17 10:27:01,672 - django.server - INFO - "GET /accounts/products/ HTTP/1.1" 200 1093
+2024-12-17 10:27:01,844 - accounts - DEBUG - Function called: product_list() - User: admin
+2024-12-17 10:27:01,846 - accounts - INFO - Fetched 15 products for user: admin
+2024-12-17 10:27:01,849 - django.server - INFO - "GET /accounts/products/ HTTP/1.1" 200 1093
